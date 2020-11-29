@@ -1,9 +1,8 @@
 let arr = [1,2,3,4,5];
 let Second = (n) =>{
     let secondNum = n.sort(function (a,b){
-        return a-b
+        return b-a;
         });
-    let secondLargest = secondNum[n.length-2];
-    return secondLargest;
+    return secondNum[1];
     }
 console.log(Second(arr));
